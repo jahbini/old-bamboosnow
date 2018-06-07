@@ -1,0 +1,35 @@
+body {
+background: rgb(154,231,244); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(154,231,244,1) 0%, rgba(249,219,107,1) 24%, rgba(237,169,45,1) 32%, rgba(237,124,37,1) 37%, rgba(237,169,45,1) 40%, rgba(249,219,107,1) 44%, rgba(42,112,50,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(154,231,244,1)), color-stop(24%,rgba(249,219,107,1)), color-stop(32%,rgba(237,169,45,1)), color-stop(37%,rgba(237,124,37,1)), color-stop(40%,rgba(237,169,45,1)), color-stop(44%,rgba(249,219,107,1)), color-stop(100%,rgba(42,112,50,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(154,231,244,1) 0%,rgba(249,219,107,1) 24%,rgba(237,169,45,1) 32%,rgba(237,124,37,1) 37%,rgba(237,169,45,1) 40%,rgba(249,219,107,1) 44%,rgba(42,112,50,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(154,231,244,1) 0%,rgba(249,219,107,1) 24%,rgba(237,169,45,1) 32%,rgba(237,124,37,1) 37%,rgba(237,169,45,1) 40%,rgba(249,219,107,1) 44%,rgba(42,112,50,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(154,231,244,1) 0%,rgba(249,219,107,1) 24%,rgba(237,169,45,1) 32%,rgba(237,124,37,1) 37%,rgba(237,169,45,1) 40%,rgba(249,219,107,1) 44%,rgba(42,112,50,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(154,231,244,1) 0%,rgba(249,219,107,1) 24%,rgba(237,169,45,1) 32%,rgba(237,124,37,1) 37%,rgba(237,169,45,1) 40%,rgba(249,219,107,1) 44%,rgba(42,112,50,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ae7f4', endColorstr='#2a7032',GradientType=0 ); /* IE6-9 */
+}
+a, a:visited {
+	/* customize_link */color: #3366cc;/* customize_link */
+}
+a:hover, a:focus {
+	/* customize_link_hover */color: #336699;/* customize_link_hover */
+}
+.container { 
+	/* customize_Container_Background */background-color: #ffffff;/* customize_Container_Background */
+}
+h1.logo a, h1.logo a:visited {
+	/* customize_header_logo */color: #3366cc;/* customize_header_logo */
+	/* customize_header_logo */font: normal normal 50px "Georgia";/* customize_header_logo */
+}
+.header h1 {
+	/* customize_Page_Title */color: #000;/* customize_Page_Title */
+}
+.header h2 {
+	/* customize_Page_Description */color: #333;/* customize_Page_Description */
+}
+.breadcrumbs {
+}
+#footer { 
+	/* customize_Footer */background-color: #ccc;/* customize_Footer */
+}
+	/* customize_miscellaneous */ /* customize_miscellaneous */

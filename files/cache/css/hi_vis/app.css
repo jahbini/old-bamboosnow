@@ -1,0 +1,220 @@
+body {/* customize_background_color */ background-color:#000; /* customize_background_color */}
+div#page { padding-bottom: 1.875em; margin: 0; background:none;}
+#page .row {max-width: 80em;}
+#page .column, #page .columns {
+    padding: 0 1.875em 1.875em 1.875em;
+}
+#page a {/* customize_link */ color: #E1E031; /* customize_link */}
+#page a:hover, #page a:focus {/* customize_hover */ color: #FFFFFF; /* customize_hover */}
+#page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {line-height: 1.2em;  margin-bottom: 0.8em;}
+#page a:hover {text-decoration: underline;}
+#page header {padding: 3em 0 2em;  margin: 0 0 1em; border-top:12px solid #fff;} 
+#page header h1 {font-family: 'Lato'; font-size: 6em; font-weight: 700; margin: 0.25em 0; line-height: 0.85em; text-transform: uppercase; }
+#page header h1 a{/* customize_mainHeader */ color: #E1E031; /* customize_mainHeader */ }
+#page header h1 a:hover{color: #FFF; text-decoration: none;}
+#page nav.top-bar{
+    padding: 0;
+    text-align:center;
+    background: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#page nav.top-bar .toggle-topbar { text-align:right;}
+#page nav.top-bar .toggle-topbar a:hover{ text-decoration:none;}
+#page .top-bar-section ul li > a{
+    font-family: 'Lato'; 
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+#page nav .name h1{
+font-size: 14px;
+    font-weight: normal;
+}
+#page .top-bar.expanded {background: none;}
+#page .top-bar.expanded .title-area {
+    background: none;
+}
+#page .top-bar-section ul li a {
+    font-weight: normal;
+    font-size: 14px;
+    color: #222; 
+}
+#page .top-bar-section ul li a:hover {
+    text-decoration: none;
+}
+#page .top-bar-section ul li li {text-align: left;}
+#page .top-bar-section li a, #page .top-bar-section ul{
+    background: none;
+    color: #222;
+}
+#page .top-bar-section li:not(.has-form) a:not(.button) {
+    background: none;
+    color: #fff;
+    line-height: 30px;
+    transition: background 0.3s ease-out 0s; 
+    transition: color 0.3s ease-out 0s;
+}
+#page .top-bar-section .has-dropdown > a:after {margin-top:-9.5px;}
+#page .top-bar-section li a:hover, #page .top-bar-section li:not(.has-form) a:hover:not(.button), #page .top-bar-section .moved .dropdown li a.parentLink {
+    background-color: #BBB;
+    color:#fff;
+}
+#page .top-bar-section > ul > li:not(.has-form) > a.nav-selected {
+    /* customize_nav */ background-color: #E1E031; /* customize_nav */
+    color: #222;
+}
+#page .top-bar-section .has-dropdown ul.dropdown {margin: 0;}
+#page .top-bar-section .dropdown li:not(.has-form) a {
+    background: #fff;
+    color: #222;
+    border-bottom: 1px dotted #CCCCCC; 
+    transition: background 0.3s ease-out 0s; 
+    transition: color 0.3s ease-out 0s;
+}
+#page .top-bar-section .dropdown li.back a {background: none; border-bottom:0;}
+#page .top-bar-section .moved .dropdown li a {
+    background: none;
+    color: #fff;
+    border-bottom: 0;
+    text-align: center;
+    padding: 12px 0 12px 15px;
+}
+#page .top-bar-section .dropdown li a:hover {
+    background: #ccc;
+    color: #fff;
+}
+#page .top-bar-section .dropdown li a {
+    padding: 0 15px;
+}
+#page .top-bar-section > ul {
+    margin:0 auto; 
+    display:table;
+}
+ #page .top-bar.expanded .toggle-topbar a span { box-shadow: none;}
+ #page .top-bar .toggle-topbar.menu-icon a:after {
+          box-shadow: 0 10px 0 1px #ffffff, 0 16px 0 1px #ffffff, 0 22px 0 1px #ffffff; 
+}
+#page .top-bar .toggle-topbar.menu-icon a, #page .top-bar .toggle-topbar.menu-icon {
+    width: 100%;
+}
+#page .top-bar .toggle-topbar.menu-icon a {color: inherit;}
+#page .row.content { padding-bottom:60px;}
+#page .tagline {text-align: center; margin: 0 auto 2em; }
+
+#page .sidebar ul.nav {
+    font-size: 1.1em;
+    list-style: none outside none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+#page .sidebar ul.nav li {
+    background: rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    margin: 0 0 2px;
+}
+#page .sidebar ul.nav li a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+#page .sidebar ul.nav li a:hover, #page .sidebar ul.nav li.nav-selected a {
+    background: #000;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+#page .sidebar ul ul{ font-size: inherit;}
+#page .sidebar ul ul li{background: none;}
+#page .sidebar ul ul {margin:0; border-top: 1px solid #fff;}
+#page .sidebar ul ul li a {text-indent: 0.75em;}
+#page .ccm-tags-display ul.ccm-tag-list li { height: auto; line-height: auto; border:0; background: none; padding: 5px 8px 6px 0;}
+ul.ccm-tag-list li a {padding: 0; background: rgba(0, 0, 0, 0.5);}
+#page .ccm-tags-display {margin-bottom: 1em;}
+#page .footer-copyright {text-align: center; margin: 2em 0;}
+#page .orbit-slide-number{display: none;}
+#page .orbit-container {margin: 0 0 3em;}
+#page .breadcrumbs {
+    background: none;
+    border-width: 0;
+    padding: 0 0.5em;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    list-style-position:outside;
+    margin: 0;
+}
+#page .breadcrumbs a {/* customize_breadcrumb_link */ color: #E1E031; /* customize_breadcrumb_link */} 
+.ccm-page-list-title { font-size: 17px;}
+#page .formBlockSurveyTable {border:0; background: none;}
+#page .formBlockSurveyTable tr.even, #page .formBlockSurveyTable tr.alt, #page .formBlockSurveyTable tr:nth-of-type(2n) {
+    background: none;
+}
+#page label {color: #FFF;}
+#page .formBlockSurveyTable td {padding: 7px 12px 4px 0;}
+#page .formBlockSurveyTable label {font-size: 1em;}
+#page .formBlockSurveyTable .radioPair {margin:0 0 4px 0;}
+#page .formBlockSubmitButton, .ccm-search-block-submit, #page .button, #page .button a{
+    transition: background-color 300ms ease-out 0s;
+    background-color: #EEE;
+    border:0;
+    color: #222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 0.8125em;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    padding: 1em 1.5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+#page .guestBook-entry div.contentByLine {color: #fff;}
+#page div.guestBook-entry {margin: 0 0 2em; border-bottom: 1px solid #fff; padding: 0 0 1em 0;}
+#page button.tiny, #page .button.tiny {
+    padding: 0.7em 0.875em; font-size: 0.6875em;
+}
+#page .button, #page .formBlockSubmitButton, #page .ccm-search-block-submit{font-family: 'Lato'; text-transform: uppercase; letter-spacing: 0.05em; font-weight: normal;}
+#page .formBlockSubmitButton:hover, #page .ccm-search-block-submit:hover, #page .button:hover{background-color: #222; color: #FFF; text-decoration: none;}
+#page input[type="text"], #page input[type="password"], #page input[type="date"], #page input[type="datetime"], #page input[type="datetime-local"], #page input[type="month"], #page input[type="week"], #page input[type="email"], #page input[type="number"], #page input[type="search"], #page input[type="tel"], #page input[type="time"], #page input[type="url"], #page textarea {
+    border: 0;
+    box-shadow: none;
+    background: #eee;
+}
+#page h4.guestBook-title {
+    border-bottom: 0;
+}
+#page footer{position:relative; bottom:0; background: rgba(0,0,0,0.5); padding: 1.875em 0;}
+#page ::selection {
+    background: #000;
+    }
+#page ::-moz-selection {
+    background: #000;
+}
+#page .ccm-image-block {margin: 0 0 1.5em 0;}
+.vegas-overlay {
+    background-size:cover!important;  opacity: 1!important;
+}
+#page .panel {/* customize_panel-background */ background-color: #E1E031; /* customize_panel-background */ /* customize_panel-text */ color: #222; /* customize_panel-text */}
+#page table tr th, #page table tr td {color: #FFF;}
+#page .fa {font-style: normal;}
+body:not(.editmode) .fullscreen-background-block { display:none; }
+
+/* -----------------------------------------
+   Media Queries
+----------------------------------------- */
+
+@media only screen and (min-width : 930px) { 
+    #page .top-bar-section ul li > a {height: auto;}
+    .top-bar-section .has-dropdown > a:after {margin-top: -9.5px;}
+}
+@media only screen and (max-width : 640px) { 
+    #page .nav-container .columns {padding: 0;}
+}
+/* -----------------------------------------
+    Admin UI Fixes
+----------------------------------------- */
+body.editmode{position:static;} /* fix for or conflict in eit mode */
+.ui-dialog {font:13px/18px Arial;}
+.ui-dialog input{margin: 3px 3px 0 5px;}
+.ui-dialog h1, .ui-dialog h2, .ui-dialog h3, .ui-dialog h4, .ui-dialog h5 {margin: 8px 0 4px;padding: 4px 0;}
